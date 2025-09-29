@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozzy Osbourne - O Príncipe das Trevas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img src="images/ozzy_header.jpg" alt="Ozzy Osbourne" class="header-img">
+            <h1>Ozzy Osbourne</h1>
+            <p>O Príncipe das Trevas e ícone do heavy metal</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#biografia">Biografia</a></li>
+                <li><a href="#discografia">Discografia</a></li>
+                <li><a href="#blacksabbath">Black Sabbath</a></li>
+                <li><a href="#carreirasolo">Carreira Solo</a></li>
+                <li><a href="#familia">Família e reality show</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="biografia">
+            <div class="container">
+                <h2>Biografia</h2>
+                <p>
+                    John Michael "Ozzy" Osbourne (1948-2025) foi um cantor, compositor e personalidade da mídia inglesa, conhecido como o "Príncipe das Trevas". Ele co-fundou a banda de heavy metal Black Sabbath em 1968 e se destacou nos anos 70 como vocalista principal. Após ser demitido do Black Sabbath em 1979 devido a problemas com abuso de substâncias, Osbourne embarcou em uma bem-sucedida carreira solo nos anos 80.
+                </p>
+                <p>
+                    Nos anos seguintes, Ozzy se tornou uma figura ainda mais icônica, estrelando o popular reality show de TV, *The Osbournes*, ao lado de sua família. Sua vida foi marcada por altos e baixos, mas seu legado no heavy metal é indiscutível.
+                </p>
+                <p>
+                    <a href="https://pt.wikipedia.org/wiki/Ozzy_Osbourne" target="_blank" class="link-externo">Leia mais na Wikipédia</a>
+                </p>
+            </div>
+        </section>
+
+        <section id="discografia">
+            <div class="container">
+                <h2>Discografia selecionada (solo)</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/horadebatercabeca/posts/em-12-de-setembro-de-1980-h%C3%A1-45-anos-ozzy-osbourne-lan%C3%A7ava-o-seu-primeiro-%C3%A1lbum-/1082334414098699/" target="_blank" class="link-externo">Blizzard of Ozz (1980)</a></li>
+                    <li><a href="https://www.facebook.com/horadebatercabeca/posts/em-12-de-setembro-de-1980-h%C3%A1-45-anos-ozzy-osbourne-lan%C3%A7ava-o-seu-primeiro-%C3%A1lbum-/1082334414098699/" target="_blank" class="link-externo">Diary of a Madman (1981)</a></li>
+                    <li><a href="https://imusic.br.com/music/5099748168023/ozzy-osbourne-1988-the-ultimate-sin-cd?utm_source=google&utm_medium=cpc&utm_campaign=shopping-BR&srsltid=AfmBOopajQ9R7nPtPUsd76WZJa913WdeeTw6HwSK9s8EyQoBPSALUyu8t_A" target="_blank" class="link-externo">The Ultimate Sin (1986)</a></li>
+                    <li><a href="https://www.magazineluiza.com.br/cd-ozzy-osbourne-no-more-tears-sony-music/p/kg1128ckj5/li/libi/?seller_id=baudigital&srsltid=AfmBOopwuvYfeqcbWoyJMKaFSmrrZEsW-2BaPRXTpGY-H8WnRBT3xfHSjhE" target="_blank" class="link-externo">No More Tears (1991)</a></li>
+                    <li><a href="https://www.magazineluiza.com.br/cd-ozzy-ozbourne-live-principe-das-trevas-top-disc/p/cj1ah15hf4/li/ldar/?seller_id=campinascomercio2&srsltid=AfmBOopfmxf4FQSiZqpyD0pah3ZMiE4v7S1xtjl-vUzgqjxWkkfUVOaZcow&region_id=123481" target="_blank" class="link-externo">Live at Budokan (2002)</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="blacksabbath">
+            <div class="container">
+                <h2>Black Sabbath</h2>
+                <p>
+                    Como vocalista e co-fundador da banda britânica de heavy metal Black Sabbath, Ozzy Osbourne se tornou uma figura central na história do gênero. A banda foi formada em 1968 em Birmingham e, sob a liderança de Ozzy, lançou álbuns icônicos como *Paranoid* e *Master of Reality*. A parceria de Ozzy com a banda terminou em 1979, mas seu legado com o grupo perdurou por décadas.
+                </p>
+                <p>
+                    Em 2017, Ozzy se juntou novamente ao Black Sabbath para uma turnê de despedida, culminando em um show final em Birmingham, onde tudo começou.
+                </p>
+                <p>
+                    <a href="https://pt.wikipedia.org/wiki/Black_Sabbath" target="_blank" class="link-externo">Saiba mais sobre o Black Sabbath na Wikipédia</a>
+                </p>
+            </div>
+        </section>
+
+        <section id="carreirasolo">
+            <div class="container">
+                <h2>Carreira Solo</h2>
+                <p>
+                    Após ser demitido do Black Sabbath, Ozzy Osbourne iniciou sua bem-sucedida carreira solo. Ele lançou seu primeiro álbum solo, *Blizzard of Ozz*, em 1980, e consolidou seu nome como um dos maiores ícones do heavy metal. Ozzy se apresentou no Brasil seis vezes durante sua carreira solo, incluindo a primeira edição do Rock in Rio em 1985.
+                </p>
+                <p>
+                    Sua carreira solo é marcada por sucessos como "Crazy Train," "Mr. Crowley" e "Mama, I'm Coming Home".
+                </p>
+            </div>
+        </section>
+
+        <section id="familia">
+            <div class="container">
+                <h2>Família e reality show</h2>
+                <p>
+                    A vida pessoal de Ozzy também foi de grande interesse público, especialmente devido ao reality show *The Osbournes*, que estreou em 2002. Ozzy foi casado com Thelma Riley de 1971 a 1982, com quem teve dois filhos, Louis e Jessica. Após o divórcio, ele se casou com Sharon Arden em 1982, com quem teve três filhos: Aimee, Kelly e Jack.
+                </p>
+                <p>
+                    O show *The Osbournes* mostrou a vida cotidiana da família, misturando humor e drama, e se tornou um grande sucesso.
+                </p>
+                <p>
+                    <a href="https://www.eonline.com/news/1420190/ozzy-osbournes-family-sharon-osbourne-kelly-osbourne-more" target="_blank" class="link-externo">Conheça mais sobre a família Osbourne</a>
+                </p>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <div class="container">
+                <h2>Galeria de Fotos</h2>
+                <div class="photo-gallery">
+                    <img src="images/ozzy_gallery1.jpg" alt="Ozzy Osbourne em show" class="gallery-item">
+                    <img src="images/ozzy_gallery2.jpg" alt="Ozzy Osbourne e Black Sabbath" class="gallery-item">
+                    <img src="images/ozzy_gallery3.jpg" alt="Ozzy Osbourne e sua família" class="gallery-item">
+                    <img src="images/ozzy_gallery4.jpg" alt="Ozzy Osbourne nos bastidores" class="gallery-item">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Ozzy Osbourne Fanpage. Todos os direitos reservados.</p>
+            <div class="social-media">
+                <a href="https://www.ozzy.com/" target="_blank" class="link-externo">Site Oficial</a>
+                <a href="https://www.facebook.com/ozzyosbourne/" target="_blank" class="link-externo">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
