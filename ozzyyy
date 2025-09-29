@@ -1,0 +1,38 @@
+document.addEventListener('DOMContentLoaded', () => {
+    const navLinks = document.querySelectorAll('nav a');
+    
+    // Suaviza a rolagem ao clicar nos links do menu
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute('href').substring(1);
+            const targetSection = document.getElementById(targetId);
+            
+            if (targetSection) {
+                window.scrollTo({
+                    top: targetSection.offsetTop - 70, // Ajusta o scroll para não cobrir o cabeçalho fixo
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+
+    // Animação simples para os itens da galeria
+    const galleryItems = document.querySelectorAll('.gallery-item');
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.5
+    });
+
+    galleryItems.forEach(item => {
+        item.classList.add('fade-in');
+        observer.observe(item);
+    });
+});
